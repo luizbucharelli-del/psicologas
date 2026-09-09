@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 400;
+    line-height: 1.65;
+    letter-spacing: 0.01em;
+    color: #2E2235;
+    background-color: #FAF7FC;
+  }
+
+  h1, h2, h3, h4, .font-serif, .font-display {
+    font-family: 'Tenor Sans', 'Italiana', Georgia, serif;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+  }
+}
+
+/* Custom smooth animation & delicate lilac scrollbar */
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7FC;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8C7E3;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C4ACD3;
+}
