@@ -1,9 +1,12 @@
 import { ThemePalette, PsychologistProfile, ServiceItem, PainPoint, Testimonial, FaqItem } from '../types';
+import heroPortrait from '../assets/images/hero_psychologist_portrait_1788972198945.jpg';
+import officeRoom from '../assets/images/clinic_consultation_office_1788972233791.jpg';
+import candidAbout from '../assets/images/psychologist_about_candid_1788972254724.jpg';
 
 export const ASSETS = {
-  heroPortrait: '/src/assets/images/hero_psychologist_portrait_1788972198945.jpg',
-  officeRoom: '/src/assets/images/clinic_consultation_office_1788972233791.jpg',
-  candidAbout: '/src/assets/images/psychologist_about_candid_1788972254724.jpg',
+  heroPortrait,
+  officeRoom,
+  candidAbout,
 };
 
 export const PALETTES: Record<string, ThemePalette> = {
